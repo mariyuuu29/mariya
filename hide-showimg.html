@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+<script>
+
+$(document).ready(function() {
+ $("#hide").click(function() {
+  $("#car").hide();
+});
+
+$("#show").click(function() {
+ $("#car").show();
+});
+});
+
+</script>
+</head>
+<body>
+
+<img src="https://figads.in/car.png" id="car" width="500px">
+<button id="hide">Hide</button>
+<button id="show">Show</button>
+</body>
+</html>

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+<script>
+$(document).ready(function(){
+  $("#fadeOut").click(function(){
+    $("#img2").fadeOut();
+  });
+  $("#fadeIn").click(function(){
+    $("#img2").fadeIn();
+  });
+});
+</script>
+</head>
+<body>
+<img src="https://www.w3schools.com/html/pic_trulli.jpg" id="img2" width="450px">
+
+<br>
+<button id="fadeIn">Fade In</button>
+<button id="fadeOut">Fade Out</button>
+</body>
+</html>

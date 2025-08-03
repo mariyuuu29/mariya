@@ -1,0 +1,13 @@
+h1 
+{
+	color: navy;
+	text-align: center;
+	text-decoration: underline;
+}
+.about
+{
+	color: maroon;
+	font-family: arial;
+	background-color: lightgoldenrodyellow;
+	padding: 10px;
+} 

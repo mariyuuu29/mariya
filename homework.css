@@ -1,0 +1,53 @@
+<style>
+  body {
+    background: #1a1a2e;
+    font-family: 'Segoe UI', sans-serif;
+    text-align: center;
+    padding-top: 40px;
+  }
+
+  h1 {
+    color: #00b894;
+    text-shadow: 0 0 10px #00cec9;
+  }
+
+  p {
+    color: #fab1a0;
+    font-size: 16px;
+    margin: 15px auto;
+    width: 90%;
+  }
+
+  button {
+    background-color: #0984e3;
+    color: white;
+    padding: 10px 25px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    box-shadow: 0 0 15px #00cec9;
+    margin-bottom: 20px;
+  }
+
+  button:hover {
+    background-color: #0652dd;
+    box-shadow: 0 0 20px #81ecec;
+  }
+
+  .section {
+    margin-bottom: 100px;
+  }
+
+  .sukuna-img {
+    width: 250px;
+    height: auto;
+    background: #2d3436;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px #00cec9;
+    display: block;
+    margin: 0 auto;
+    position: relative;
+  }
+</style>

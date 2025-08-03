@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  $("#slideUp").click(function(){
+    $("#img1").slideUp();
+  });
+  $("#slideDown").click(function(){
+    $("#img1").slideDown();
+  });
+});
+</script>
+</head>
+<body>
+<img src="https://www.w3schools.com/html/pic_trulli.jpg" id="img1" width="560px"><br>
+
+<button id="slideUp">Slide Up</button>
+<button id="slideDown">Slide Down</button>
+</body>
+</html>

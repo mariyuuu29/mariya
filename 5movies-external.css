@@ -1,0 +1,23 @@
+h1 
+		{
+			color: magenta;
+			text-align: center;
+			text-decoration: underline;
+
+		}
+		.movies {
+			color: chocolate;
+			background-color: lavenderblush;
+			font-family: arial;
+			margin: 4px;
+		}
+		#intro 
+		{
+			color: darkgreen;
+			font-weight: 500px;
+			font-size: 18px;
+		}
+		p:hover 
+		{
+			color: darkmagenta; 
+		}
